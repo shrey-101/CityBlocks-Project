@@ -5,4 +5,4 @@ We are team heavy coders
 we are building something cool that will help people and literally solve a real life problem
 
 ## Technology we use?
-we'll be reaveaing soon
+we'll be revealing soon
