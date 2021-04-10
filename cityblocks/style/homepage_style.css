@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .footer{
+      background-color: chocolate;
+      margin: auto;
+      left: 0;
+      right: 0;
+      position: absolute;
+  }
+ 
+  .bg-image, .bg-image2 {
+    /* The image used */
+    background-image: url("/assets/bgimg.jpg");
+    
+    /* Add the blur effect
+    filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    
+    /* Full height */
+    height: 85%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-image2{
+    background-image: url("assets/bgimg2.png");
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 15px;
+    text-align: center;
+  }
+  form.example select {
+    padding: 10px;
+    font-size: 21px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+   
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 12px;
+    background: #2196F3;
+    color: white;
+    font-size: 22px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    
+  }
+  
+  
+  form.example button:hover {
+    background: #032541;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
