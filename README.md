@@ -6,15 +6,15 @@ We are team heavy coders
 
 
 ## Introduction:
-With the current situation of corona-virus coggling up again, travelling to different places is becoming not just uncertain but also worrisome. We the team of HeavyCoders have develove CityBlocks a web-app that provides you not just every important informaition about a city such as covid-helplines and vaccination centres etc but also information about particular areas inside the city, including the state of covid in that area. We also aim to focus on women saftey and thus for that purpose we have provided a detailed decription of each area including all the emergency services that can we analysed with just a glimpse. All this information have been collected from local trusted sources and we aim to add more and more places to our database so that each individual can benifit from it. 
+With the current situation of corona-virus coggling up again, travelling to different places is becoming not just uncertain but also worrisome. We the team of HeavyCoders have developed CityBlocks a web-app that provides you with not just all the important information about a city such as covid-helplines and vaccination centres etc. but also information about particular areas inside the city, including the spread of covid in that area. We also aim to focus on women saftey and thus for that purpose we have provided a detailed decription of each area including all the emergency services that can be analysed with just a glimpse. All this information has been collected from local trusted sources and we aim to add much more places to our database so that our country and and its citizen can benifit from it.
   
 ## Table of Contents:
 1) Important helpline numbers
 2) Covid vaccination centres details
-3) area-wise covid risk information of each city
+3) Area-wise covid risk information of each city
 4) Information of all the women helplines and police chowki's in an area
 5) Information about goverment buildings in an area
-6) No of corona cases in any city
+6) No. of corona cases in any city
 
 ## Technology Stack:
   1) PHP, DATABASE
