@@ -23,7 +23,6 @@ Team Name: Heavy coders
 * [Shreshtha](https://github.com/shrey-101)
 * [Saurabh](https://github.com/sy425191)
 * [Ansul](https://github.com/AnshulSutrakar)
-*
 
 
 ### Made at:
