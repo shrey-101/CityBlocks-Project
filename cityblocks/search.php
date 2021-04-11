@@ -4,7 +4,7 @@ if(isset($_GET['cityname'])){
 $cityname = $_GET['cityname'];
 }
 else{
-    header("location: index.html");
+    header("location: search_not_found.php?cityname=$cityname");
 }
 $sql = "SELECT * FROM cityinfo WHERE cityname = '$cityname'";
 $result = $conn->query($sql);
