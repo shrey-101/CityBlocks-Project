@@ -18,6 +18,7 @@ if ($result->num_rows > 0) {
         $distance_from =$row['Distance_from'];
         $near_places = $row['Nearby_places'];
         $area_name = $row['Review_table'];
+        $vaccaination_center = $row['vc'];
       }
       else{
          
@@ -111,6 +112,11 @@ if ($result->num_rows > 0) {
       <tr>
         <td>Covid Safety :</td>
         <td style="color:<?php echo "$covid_safety" ?>; font-weight: 700;"><?php echo "$covid_safety" ?></td>
+      </tr>
+         <tr>
+        <td>Covid Vaccaination :</td>
+        <td><?php echo "$vaccaination_center" ?>
+        </td>
       </tr>
       <tr>
         <td>Government Buildings :</td>
