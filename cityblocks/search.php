@@ -17,7 +17,7 @@ $citydescription = $row['description'];
 $totalcases = 8000;
 }
 else{
-    header("location: search_not_found.php");
+    header("location: search_not_found.php?cityname=$cityname");
 }
 ?>
 
